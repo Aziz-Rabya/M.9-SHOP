@@ -6,7 +6,7 @@ const Navbar = () => {
        <a href="/" className="aguafina-script-regular text-2xl">M.9-SHOP</a>
        <div className="flex relative gap-6">
           <a href="/" className="hover:text-black">Home</a>
-          <a href="/" className="hover:text-black">Shop</a>
+          <a href="/all-products" className="hover:text-black">Shop</a>
           <a href="#" className="hover:text-black">About us</a>
           <a href="#" className="hover:text-black">Contact</a>
           <button className="text-[12px] border border-gray-200 shadow-2xl rounded-2xl px-3 py-1.5 cursor-pointer hover:text-black">Seller dashboard</button>
