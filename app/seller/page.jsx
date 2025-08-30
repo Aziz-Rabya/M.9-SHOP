@@ -33,7 +33,7 @@ const AddProduct = () => {
                 <img
                   key={index}
                   className="max-w-24 cursor-pointer"
-                  src={files[index] ? URL.createObjectURL(files[index]) : <i class='bx  bx-file-plus'  ></i> }
+                  src={files[index] ? URL.createObjectURL(files[index]) : "/images/image_360x210_1.png" }
                   alt=""
                   width={100}
                   height={100}

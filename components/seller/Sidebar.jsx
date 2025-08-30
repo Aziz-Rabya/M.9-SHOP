@@ -5,9 +5,9 @@ import { usePathname } from 'next/navigation';
 const SideBar = () => {
     const pathname = usePathname()
     const menuItems = [
-        { name: 'Add Product', path: '/seller', icon: <i class='bx  bx-plus-square'  ></i>  },
-        { name: 'Product List', path: '/seller/product-list', icon: <i class='bx  bx-list-square'  ></i>  },
-        { name: 'Orders', path: '/seller/orders', icon: <i class='bx  bx-shopping-bag-alt'  ></i>  },
+        { name: 'Add Product', path: '/seller', icon: "./images/add_icon.svg"  },
+        { name: 'Product List', path: '/seller/product-list', icon: "./images/product_list_icon.svg" },
+        { name: 'Orders', path: '/seller/orders', icon: "images/order_icon.svg"  },
     ];
 
     return (

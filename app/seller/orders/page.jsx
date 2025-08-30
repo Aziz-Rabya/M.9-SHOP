@@ -30,7 +30,7 @@ const Orders = () => {
                     {orders.map((order, index) => (
                         <div key={index} className="flex flex-col md:flex-row gap-5 justify-between p-5 border-t border-gray-300">
                             <div className="flex-1 flex gap-5 max-w-80">
-                                <i className='bx  bx-box-alt'  ></i> 
+                                <img src="/images/box_icon.svg" />
                                 <p className="flex flex-col gap-3">
                                     <span className="font-medium">
                                         {order.items.map((item) => item.product.name + ` x ${item.quantity}`).join(", ")}
